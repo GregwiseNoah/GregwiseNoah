@@ -9,7 +9,7 @@
 
 <p align="center">
         <!-- Intro -->
-         <div align="center"> 
+         
         # I'm Ashwin 👋 <br
         <samp>
                 「 I'm a Master's student in <b>Potsdam</b> 」
@@ -17,12 +17,12 @@
                 「 I work with hydronamical simulations 」
                 <br>
                 <br>
-        </samp> </div>
+        </samp>
 </p>
 
 <p align="center">
   🎓 Master's student in Astrophysics @ University of Potsdam <br>
-  🔭 Researching AGN feedback, ICM dynamics & hydrodynamical simulations <br>
+  🔭 Researching AGN feedback, ICM dynamics & multiphase gas <br>
   💻 Passionate about finding just the right colour maps for plots
 </p>
 
