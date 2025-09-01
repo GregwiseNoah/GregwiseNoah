@@ -7,17 +7,17 @@
 
 <br>
 
-<p align="center">
+<p> <div align="center">
         <!-- Intro --> 
         I'm Ashwin 👋 <br
-        <samp>
+        <samp> 
                 「 I'm a Master's student in <b>Potsdam</b> 」
                 <br>
                 「 I work with hydronamical simulations 」
                 <br>
                 <br>
         </samp>
-</p>
+</div> </p>
 
 <p align="center">
   🎓 Master's student in Astrophysics @ University of Potsdam <br>
