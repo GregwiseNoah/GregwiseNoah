@@ -7,17 +7,21 @@
 
 <br>
 
-<p> <div align="center">
-        <!-- Intro --> 
-        I'm Ashwin 👋 <br
-        <samp> 
-                「 I'm a Master's student in <b>Potsdam</b> 」
-                <br>
-                「 I work with hydronamical simulations 」
-                <br>
-                <br>
-        </samp>
-</div> </p>
+<div align="center">
+  <!-- Intro -->
+  I'm 
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/anagram_dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/anagram_light.gif" />
+    <img alt="gregwisenoah ↔ ashwin_george" src="assets/anagram_light.gif" width="200" style="vertical-align: middle;">
+  </picture>
+  👋
+  <br>
+  <samp>
+    「 I'm a Master's student in <b>Potsdam</b> 」 <br>
+    「 I work with hydrodynamical simulations 」 <br><br>
+  </samp>
+</div>
 
 <p align="center">
   🎓 Master's student in Astrophysics @ University of Potsdam <br>
