@@ -1,6 +1,29 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=19,21,24&height=300&section=header&text=Hello%There!&capsule%20render&fontSize=90&height=100&animation=fadeIn)
 
-![obi wan popping up on screen](https://github.com/GregwiseNoah/GregwiseNoah/blob/main/assets/obi.gif)
+<!-- gif -->
+<div align="center">
+  <img src="https://github.com/GregwiseNoah/GregwiseNoah/blob/main/assets/obi.gif" alt="obi wan popping up" width="250">
+</div>
+
+<br>
+
+<p align="center">
+        <!-- Intro -->
+        # <div align="center"> I'm Ashwin 👋</div>
+        <samp>
+                「 I'm a Master's student in <b>Potsdam</b> 」
+                <br>
+                「 I work with hydronamical simulations 」
+                <br>
+                <br>
+        </samp>
+</p>
+
+<p align="center">
+  🎓 Master's student in Astrophysics @ University of Potsdam <br>
+  🔭 Researcher in AGN feedback, ICM dynamics & hydrodynamical simulations <br>
+  💻 Passionate about high performance computing, data analysis & scientific visualization
+</p>
 
 # GregwiseNoah
 
