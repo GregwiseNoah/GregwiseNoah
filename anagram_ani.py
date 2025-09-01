@@ -11,7 +11,7 @@ w2 = word2.ljust(max_len)
 
 font = ImageFont.truetype("/usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf", 48)  
 num_flicker_frames = 5      
-padding = 2
+padding = 10
 alphabet = string.ascii_letters + string.digits + "_!@#$%^&*"
 
 def get_text_size(text, font):
