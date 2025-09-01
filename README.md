@@ -9,20 +9,20 @@
 
 <p align="center">
         <!-- Intro -->
-        # <div align="center"> I'm Ashwin 👋</div> <br>
+        # <div align="center"> I'm Ashwin 👋
         <samp>
                 「 I'm a Master's student in <b>Potsdam</b> 」
                 <br>
                 「 I work with hydronamical simulations 」
                 <br>
                 <br>
-        </samp>
+        </samp> </div>
 </p>
 
 <p align="center">
   🎓 Master's student in Astrophysics @ University of Potsdam <br>
-  🔭 Researcher in AGN feedback, ICM dynamics & hydrodynamical simulations <br>
-  💻 Passionate about high performance computing, data analysis & scientific visualization
+  🔭 Researching AGN feedback, ICM dynamics & hydrodynamical simulations <br>
+  💻 Passionate about finding just the right colour maps for plots
 </p>
 
 # GregwiseNoah
