@@ -11,15 +11,15 @@ w1 = word1.ljust(max_len)
 w2 = word2.ljust(max_len)
 
 # Settings
-font = ImageFont.truetype("DejaVuSans-Bold.ttf", 48)  # larger, clearer font
+font = ImageFont.truetype("DejaVuSans-Bold.ttf", 48)  # nice crisp font
 num_steps = 30
-padding = 10  # shrink margins
+padding = 10
 
 def get_text_size(text, font):
     bbox = font.getbbox(text)
     return bbox[2] - bbox[0], bbox[3] - bbox[1]
 
-def make_transition(start, end, bg_color, text_color):
+def make_transition(start, end, text_color):
     frames = []
     for step in range(num_steps + 1):
         text_chars = [
@@ -31,24 +31,25 @@ def make_transition(start, end, bg_color, text_color):
         w, h = get_text_size(text, font)
         img_size = (w + padding * 2, h + padding * 2)
 
-        img = Image.new("RGB", img_size, bg_color)
+        # RGBA for transparency
+        img = Image.new("RGBA", img_size, (0, 0, 0, 0))
         draw = ImageDraw.Draw(img)
         draw.text((padding, padding), text, font=font, fill=text_color)
 
         frames.append(img)
     return frames
 
-def build_animation(bg_color, text_color, filename):
+def build_animation(text_color, filename):
     frames = []
-    frames.extend(make_transition(w1, w2, bg_color, text_color))
-    frames.extend(make_transition(w2, w1, bg_color, text_color))
+    frames.extend(make_transition(w1, w2, text_color))
+    frames.extend(make_transition(w2, w1, text_color))
 
     os.makedirs("assets", exist_ok=True)
     output_path = os.path.join("assets", filename)
     frames[0].save(output_path, save_all=True, append_images=frames[1:],
-                   duration=150, loop=0, disposal=2)
+                   duration=150, loop=0, disposal=2, transparency=0)
     print(f"Saved {output_path}")
 
-# Generate light & dark versions
-build_animation("white", "black", "anagram_light.gif")
-build_animation("black", "white", "anagram_dark.gif")
+# Generate transparent gifs with just text
+build_animation("black", "anagram_light.gif")   # for light mode
+build_animation("white", "anagram_dark.gif")   # for dark mode
