@@ -8,12 +8,7 @@
 <br>
 <div align="center">
   <!-- Intro -->
-  👋 I'm 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/anagram_dark.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/anagram_light.gif" />
-    <img alt="gregwisenoah ↔ ashwin_george" src="assets/anagram_light.gif" height="24" style="vertical-align: middle;">
-  </picture>
+  👋 I'm  Ashwin
   <br>
   <samp>
     「 I'm a Master's student in <b>Potsdam</b> 」 <br>
@@ -27,7 +22,11 @@
   💻 Passionate about finding just the right colour maps for plots
 </p>
 
-# GregwiseNoah
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/anagram_dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/anagram_light.gif" />
+    <img alt="gregwisenoah ↔ ashwin_george" src="assets/anagram_light.gif" height="24" style="vertical-align: middle;">
+  </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GregwiseNoah/GregwiseNoah/output/github-contribution-grid-snake-dark.svg" />
