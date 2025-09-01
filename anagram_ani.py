@@ -8,8 +8,9 @@ max_len = max(len(word1), len(word2))
 w1 = word1.ljust(max_len)
 w2 = word2.ljust(max_len)
 
-font = ImageFont.truetype("DejaVuSans-Bold.ttf", 48)  # pick a clean font
-num_flicker_frames = 5   
+
+font = ImageFont.truetype("/usr/share/fonts/truetype/ubuntu/Ubuntu[wdth,wght].ttf", 48)  
+num_flicker_frames = 5      
 padding = 10
 alphabet = string.ascii_letters + string.digits + "_!@#$%^&*"
 
@@ -23,7 +24,6 @@ def scramble_transition(start, end, text_color):
 
     for i in range(max_len):
         if current[i] != end[i]:
-            # Flicker random chars before final letter
             for _ in range(num_flicker_frames):
                 current[i] = random.choice(alphabet)
                 text = "".join(current)
@@ -60,6 +60,5 @@ def build_animation(text_color, filename):
                    duration=80, loop=0, disposal=2, transparency=0)
     print(f"Saved {output_path}")
 
-# Generate both light and dark
 build_animation("black", "anagram_light.gif")
 build_animation("white", "anagram_dark.gif")
