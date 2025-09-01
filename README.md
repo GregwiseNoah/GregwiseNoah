@@ -8,9 +8,8 @@
 <br>
 
 <p align="center">
-        <!-- Intro -->
-         
-        # I'm Ashwin 👋 <br
+        <!-- Intro --> 
+        I'm Ashwin 👋 <br
         <samp>
                 「 I'm a Master's student in <b>Potsdam</b> 」
                 <br>
