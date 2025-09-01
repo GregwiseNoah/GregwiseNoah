@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=19,21,24&height=300&section=header&text=Hello%There!&capsule%20render&fontSize=90&height=100&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=300&section=header&text=Hello%There!&capsule%20render&fontSize=90&height=100&animation=fadeIn)
 
 <!-- gif -->
 <div align="center">
@@ -36,4 +36,4 @@
   <img alt="github-snake" src="https://raw.githubusercontent.com/GregwiseNoah/GregwiseNoah/output/github-contribution-grid-snake.svg" />
 </picture>
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=19,21,24&height=300&section=footer&height=100&animation=fadeIn)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=300&section=footer&height=100&animation=fadeIn)
