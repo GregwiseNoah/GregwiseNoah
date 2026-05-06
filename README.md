@@ -17,7 +17,7 @@
 </div>
 
 <p align="center">
-  🎓 Master's student in Astrophysics @ University of Potsdam <br>
+  <!-- 🎓 Master's student in Astrophysics @ University of Potsdam <br> -->
   🔭 Researching AGN feedback, ICM dynamics & multiphase gas <br>
   💻 Passionate about finding just the right colour maps for plots
 </p>
